@@ -1,0 +1,35 @@
+name: Development Issue
+description: Use this template for tracking development issues
+title: '[Development Issue]: '
+body:
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: What are we trying to achieve with this issue?
+      placeholder: Provide a concise description of the issue to be tracked
+    validations:
+      required: true
+  - type: textarea
+    id: goals-and-requirements
+    attributes:
+      label: Goals and Requirements
+      description: What are the goals and requirements for this issue?
+      placeholder: |
+        Goals: 
+         - [ ] Goal 1
+         - [ ] Goal 2
+
+         Requirements:
+         - [ ] Requirement 1
+         - [ ] Requirement 2
+    validations:
+      required: true
+  - type: textarea
+    id: context-owner
+    attributes:
+      label: Context Owner
+      description: Who can provide additional context to unblock progress?
+      placeholder: 'Context Owner: '
+    validations:
+      required: true
